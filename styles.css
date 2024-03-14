@@ -92,14 +92,15 @@ body {
 .headingXL {
     font-family: "Spectral", serif;
     font-weight: 800;
-    font-size: x-large;
+    font-size: 3em;
     font-style: normal;
+    line-height: 1.6;
 
 }
 .headingL {
   font-family: "Spectral", serif;
   font-weight: 800;
-  font-size: large;
+  font-size: 2.5em;
   font-style: normal;
 
 }
@@ -107,7 +108,7 @@ body {
 .headingM {
   font-family: "Spectral", serif;
   font-weight: 600;
-  font-size: medium;
+  font-size: 2em;
   font-style: normal;
 
 }
@@ -115,26 +116,19 @@ body {
 .headingS {
   font-family: "Spectral", serif;
   font-weight: 400;
-  font-size: small;
+  font-size: 1.5em;
   font-style: normal;
 
 }
 
-h1 {
-    color: purple;
-    font-weight: 200;
-    font-size: 2.5em;
-  }
-h2 {
-    color: purple;
-    font-weight: 200;
-    font-size: 1.5em;
+.bodyM {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-size: 1em;
+  font-style: normal;
+
 }
-h3 {
-    color: black;
-    font-weight: 100;
-    font-size: 1em;
-}
+
 p {
     color: black;
   }
@@ -150,4 +144,15 @@ p {
     color: orange;
     font-weight: bold;
   }
+/* Alignment Styles */
+.textalignleft {
+  text-align: left;
+}
 
+.textaligncenter {
+  text-align: center;
+}
+
+.textalignright {
+  text-align: right;
+}
